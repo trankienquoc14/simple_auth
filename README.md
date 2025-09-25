@@ -15,13 +15,12 @@ npm install
      node basic_auth.js
  ![Khởi động server](public/image/image2.png)    
 2. **Test API với POSTMAN:**
-   - Mở POSTMAN.
-   - Test API
-    - **GET /**  
+   - Mở POSTMAN, Test các API
+   - **GET /**  
       - **URL:** `http://localhost:3000/`
       - Kết quả:  
       ![alt](public/image/image6.png)
-    - **GET /public**  
+   - **GET /public**  
       - **URL:** `http://localhost:3000/public`
       - Kết quả: 
       ![alt](public/image/image7.png)
@@ -46,7 +45,7 @@ npm install
      ```
  ![Khởi động server](public/image/image3.png) 
 2. **Test API đăng nhập với POSTMAN:**
-   - Mở POSTMAN.
+   - Mở POSTMAN, Test các API
    - **POST /login**  
      - **URL:** `http://localhost:3001/login`
      - **Body:**  
@@ -77,7 +76,7 @@ npm install
    - Mở MongoDB Compass hoặc công cụ quản lý MongoDB.
    - Truy cập database `cookieApp`, collection `cookies`.
    - Kết quả
-    - Trường hợp login thành công 
+      - Trường hợp login thành công 
    ![Hiển thị cookie trong MongoDB](public/image/image5.png)
-    - Trường hợp sau khi logout
+      - Trường hợp sau khi logout
    ![alt](public/image/image12.png)
